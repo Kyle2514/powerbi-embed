@@ -1,0 +1,32 @@
+{
+  "name": "powerbi-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/msal-node": "^3.6.2",
+    "@pnp/common": "^2.15.0",
+    "@pnp/logging": "^4.15.0",
+    "@pnp/nodejs": "^4.15.0",
+    "@pnp/nodejs-commonjs": "^2.15.0",
+    "@pnp/odata": "^2.15.0",
+    "@pnp/sp": "^4.15.0",
+    "@pnp/sp-commonjs": "^2.15.0",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jwt-decode": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "powerbi-client": "^2.23.1",
+    "undici": "^6.21.3",
+    "xml2js": "^0.6.2"
+  }
+}
