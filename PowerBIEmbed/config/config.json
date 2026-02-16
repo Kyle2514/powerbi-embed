@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "power-bi-embed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/powerBiEmbed/PowerBiEmbedWebPart.js",
+          "manifest": "./src/webparts/powerBiEmbed/PowerBiEmbedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PowerBiEmbedWebPartStrings": "lib/webparts/powerBiEmbed/loc/{locale}.js"
+  }
+}
